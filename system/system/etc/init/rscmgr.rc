@@ -1,0 +1,20 @@
+# rscmgr rc file
+
+on property:sys.readahead.resource=1
+    readahead /system/bin/surfaceflinger --fully
+    readahead /system/lib64/android.hardware.graphics.composer@2.1.so --fully
+    readahead /system/lib64/libgui.so --fully
+    readahead /system/lib64/libtimestats.so --fully
+    readahead /system/priv-app/SamsungGallery2018/SamsungGallery2018.apk --fully
+    readahead /system/priv-app/SecMyFiles2020/SecMyFiles2020.apk --fully
+    readahead /vendor/lib64/libexynosdisplay.so --fully
+    readahead /vendor/lib64/hw/hwcomposer.s5e3830.so --fully
+
+on property:sys.readahead.resource=2
+    readahead /system/app/HoneyBoard/HoneyBoard.apk --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.vdex --fully
+    readahead /system/priv-app/SecSettings/SecSettings.apk --fully
+
+on property:sys.readahead.resource=3
+    readahead /data/app/VoiceNote_5.0/VoiceNote_5.0.apk --fully
+    setprop sys.readahead.resource 0

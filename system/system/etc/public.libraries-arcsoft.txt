@@ -1,0 +1,3 @@
+libPortraitDistortionCorrection.arcsoft.so
+libPortraitDistortionCorrectionCali.arcsoft.so
+libhigh_dynamic_range.arcsoft.so
