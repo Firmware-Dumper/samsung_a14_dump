@@ -1,0 +1,14 @@
+base address: 0x10000000
+board name: SRPVK04A009
+cmdline: bootconfig buildtime_bootconfig=enable loop.max_part=7
+dtb offset: 0x00000000
+header version: 2
+image type: AOSP
+kernel offset: 0x00008000
+original size: 109051904
+os version: 14.0.0
+page size: 4096
+ramdisk compression: lz4-l
+ramdisk offset: 0x00000000
+sigtype: AVBv2
+tags offset: 0x00000000
